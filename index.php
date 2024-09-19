@@ -20,5 +20,4 @@ while (!(int)$num2) {
     }
 }
 
-
-    fwrite(STDOUT, "Результат: $num1 / $num2 = " . $num1 / $num2);
+fwrite(STDOUT, "Результат: $num1 / $num2 = " . $num1 / $num2);
